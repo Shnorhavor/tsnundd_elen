@@ -459,3 +459,19 @@ div#sea {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  /* Hide all elements on small screens */
+  body * {
+    display: none !important;
+  }
+  
+  /* Show message to open website on desktop */
+  body::before {
+    content: "Elen jan open this website using a desktop computer or a larger device.";
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+  }
+}
+
