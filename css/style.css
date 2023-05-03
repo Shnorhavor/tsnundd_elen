@@ -467,8 +467,10 @@ div#sea {
   
   /* Show message to open website on desktop */
   body::before {
+    padding, auto, 0;
     content: "Elen jan open this website using a desktop computer or a larger device.";
     display: block;
+    color: white;
     text-align: center;
     padding: 20px;
     font-size: 24px;
